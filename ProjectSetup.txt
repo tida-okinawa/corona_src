@@ -116,3 +116,14 @@ com.tida_okinawa.corona/lib
 
 You make
 com.tida_okinawa.corona.webentry.twitter.TwitterTokenSetting.java
+
+9.Please install the H2 database.
+データベースアクセスの為にH2databaseを導入します。
+H2 databaseのJarを参照できるようにしてください。
+
+The destination:  
+CoronaRoot/jdbc/h2-1.3.175.jar
+
+edit:  
+eclipse.ini  
+`-Xbootclasspath/a:C:/CoronaRoot/jdbc/h2-1.3.175.jar`
