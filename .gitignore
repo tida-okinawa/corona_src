@@ -15,3 +15,11 @@ tdmuuzdo.0vj.txt
 
 # token
 TwitterTokenSetting.java
+
+# extarnal file
+*.dic
+*.int
+JUMAN.*
+juman7/
+knp4/
+TextMiningTool/
