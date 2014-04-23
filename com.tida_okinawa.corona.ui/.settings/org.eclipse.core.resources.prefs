@@ -1,0 +1,7 @@
+eclipse.preferences.version=1
+encoding//src/com/tida_okinawa/corona/ui/editors/collocation/messages.properties=ISO-8859-1
+encoding//src/com/tida_okinawa/corona/ui/editors/pattern/messages.properties=ISO-8859-1
+encoding//src/com/tida_okinawa/corona/ui/handlers/messages.properties=ISO-8859-1
+encoding//src/com/tida_okinawa/corona/ui/views/db/action/messages.properties=ISO-8859-1
+encoding//src/com/tida_okinawa/corona/ui/wizards/messages.properties=ISO-8859-1
+encoding/<project>=UTF-8

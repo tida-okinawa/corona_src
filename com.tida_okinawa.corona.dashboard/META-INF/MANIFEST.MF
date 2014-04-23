@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Dashboard
+Bundle-SymbolicName: com.tida_okinawa.corona.dashboard;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.tida_okinawa.corona.dashboard.DashboardActivator
+Bundle-Vendor: TIDA_OKINAWA
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.tida_okinawa.corona.ui;bundle-version="1.0.0",
+ com.tida_okinawa.corona.correction;bundle-version="1.0.0",
+ com.tida_okinawa.corona.io;bundle-version="1.0.0",
+ com.tida_okinawa.corona;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy

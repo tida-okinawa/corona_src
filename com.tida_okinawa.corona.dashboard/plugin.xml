@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+<!--
+   <extension
+         name="構文解析結果エクスポート"
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="com.tida_okinawa.corona.dashboard.export.graph.ResultPatternExportGraphHandler"
+            commandId="com.tida_okinawa.corona.dashboard.exportResultPatternGraph">
+      </handler>
+   </extension>
+-->
+   <extension
+         name="構文解析結果エクスポート"
+         point="org.eclipse.ui.commands">
+      <command
+            id="com.tida_okinawa.corona.dashboard.exportResultPatternGraph"
+            name="グラフ出力">
+      </command>
+   </extension>
+<!--
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="popup:com.tida_okinawa.corona.ui.command.menuExportClaimWorkData?after=additions">
+         <command
+               commandId="com.tida_okinawa.corona.dashboard.exportResultPatternGraph"
+               icon="icons/etool16/export.png"
+               label="グラフ出力"
+               style="push">
+            <visibleWhen
+                  checkEnabled="true">
+            </visibleWhen>
+         </command>
+      </menuContribution>
+   </extension>
+-->
+   <extension
+         point="org.eclipse.ui.editorActions">
+      <editorContribution
+            id="com.tida_okinawa.corona.dashboard.resultPatternEditorContribution1"
+            targetID="com.tida_okinawa.corona.ui.editor.resultpatterneditor">
+         <action
+               class="com.tida_okinawa.corona.dashboard.export.graph.ResultPatternExportGraphAction"
+               icon="icons/etool16/export.png"
+               id="com.tida_okinawa.corona.dashboard.ResultPatternExportAction"
+               label="グラフ出力"
+               menubarPath="edit/additions"
+               style="push"
+               toolbarPath="additions"
+               tooltip="グラフ出力">
+         </action>
+      </editorContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.startup">
+      <startup
+            class="com.tida_okinawa.corona.dashboard.DashboardActivator"></startup>
+   </extension>
+
+</plugin>

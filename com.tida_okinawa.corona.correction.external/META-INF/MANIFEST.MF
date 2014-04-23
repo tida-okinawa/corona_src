@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: External
+Bundle-SymbolicName: com.tida_okinawa.corona.correction.external
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.tida_okinawa.corona.correction.external.ExternalActivator
+Bundle-Vendor: TIDA_OKINAWA
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Export-Package: com.tida_okinawa.corona.correction.external

@@ -1,0 +1,318 @@
+Manifest-Version: 1.0
+Class-Path: com.ibm.icu.source_4.4.2.v20110823.jar com.ibm.icu_4.4.2.v
+ 20110823.jar com.jcraft.jsch.source_0.1.44.v201101211721.jar com.jcra
+ ft.jsch_0.1.44.v201101211721.jar com.tida_okinawa.corona.correction.e
+ xternal_1.0.0.201401211904.jar com.tida_okinawa.corona.correction_1.0
+ .0.201401211904.jar com.tida_okinawa.corona.dashboard_1.0.0.201401211
+ 904.jar com.tida_okinawa.corona.help.context_1.0.0.201401211904.jar c
+ om.tida_okinawa.corona.io_1.0.0.201401211904.jar com.tida_okinawa.cor
+ ona.license.member_1.0.0.201401211904.jar com.tida_okinawa.corona.lic
+ ense_1.0.0.201401211904.jar com.tida_okinawa.corona.notification_1.0.
+ 0.201401211904.jar com.tida_okinawa.corona.plugin_1.0.0.201401211904.
+ jar com.tida_okinawa.corona.ui.editors.resultpatterneditor.export.tag
+ Aligned_1.0.0.201401211904.jar com.tida_okinawa.corona.ui_1.0.0.20140
+ 1211904.jar com.tida_okinawa.corona.webEntry_1.0.0.201401211904.jar c
+ om.tida_okinawa.corona_1.0.0.201401211904.jar javax.servlet.jsp.sourc
+ e_2.0.0.v201101211617.jar javax.servlet.jsp_2.0.0.v201101211617.jar j
+ avax.servlet.source_2.5.0.v201103041518.jar javax.servlet_2.5.0.v2011
+ 03041518.jar org.apache.ant.source_1.8.2.v20120109-1030.jar org.apach
+ e.commons.codec.source_1.3.0.v201101211617.jar org.apache.commons.cod
+ ec_1.3.0.v201101211617.jar org.apache.commons.el.source_1.0.0.v201101
+ 211617.jar org.apache.commons.el_1.0.0.v201101211617.jar org.apache.c
+ ommons.httpclient.source_3.1.0.v201012070820.jar org.apache.commons.h
+ ttpclient_3.1.0.v201012070820.jar org.apache.commons.logging.source_1
+ .0.4.v201101211617.jar org.apache.commons.logging_1.0.4.v201101211617
+ .jar org.apache.jasper.source_5.5.17.v201101211617.jar org.apache.jas
+ per_5.5.17.v201101211617.jar org.apache.lucene.analysis.source_2.9.1.
+ v201101211721.jar org.apache.lucene.analysis_2.9.1.v201101211721.jar 
+ org.apache.lucene.core.source_2.9.1.v201101211721.jar org.apache.luce
+ ne.core_2.9.1.v201101211721.jar org.apache.lucene.source_2.9.1.v20110
+ 1211721.jar org.apache.lucene_2.9.1.v201101211721.jar org.eclipse.ant
+ .core.source_3.2.302.v20120110-1739.jar org.eclipse.ant.core_3.2.302.
+ v20120110-1739.jar org.eclipse.ant.launching.source_1.0.101.v20120110
+ -1739.jar org.eclipse.ant.launching_1.0.101.v20120110-1739.jar org.ec
+ lipse.ant.ui.source_3.5.101.v20120110-1739.jar org.eclipse.ant.ui_3.5
+ .101.v20120110-1739.jar org.eclipse.compare.core.source_3.5.200.I2011
+ 0208-0800.jar org.eclipse.compare.core_3.5.200.I20110208-0800.jar org
+ .eclipse.compare.source_3.5.202.R37x_v20111109-0800.jar org.eclipse.c
+ ompare.win32.source_1.0.200.I20110510-0800.jar org.eclipse.compare.wi
+ n32_1.0.200.I20110510-0800.jar org.eclipse.compare_3.5.202.R37x_v2011
+ 1109-0800.jar org.eclipse.core.boot_3.1.200.v20100505.jar org.eclipse
+ .core.commands.source_3.6.0.I20110111-0800.jar org.eclipse.core.comma
+ nds_3.6.0.I20110111-0800.jar org.eclipse.core.contenttype.source_3.4.
+ 100.v20110423-0524.jar org.eclipse.core.contenttype_3.4.100.v20110423
+ -0524.jar org.eclipse.core.databinding.beans.source_1.2.100.I20100824
+ -0800.jar org.eclipse.core.databinding.beans_1.2.100.I20100824-0800.j
+ ar org.eclipse.core.databinding.observable.source_1.4.0.I20110222-080
+ 0.jar org.eclipse.core.databinding.observable_1.4.0.I20110222-0800.ja
+ r org.eclipse.core.databinding.property.source_1.4.0.I20110222-0800.j
+ ar org.eclipse.core.databinding.property_1.4.0.I20110222-0800.jar org
+ .eclipse.core.databinding.source_1.4.0.I20110111-0800.jar org.eclipse
+ .core.databinding_1.4.0.I20110111-0800.jar org.eclipse.core.expressio
+ ns.source_3.4.300.v20110228.jar org.eclipse.core.expressions_3.4.300.
+ v20110228.jar org.eclipse.core.externaltools.source_1.0.100.v20111007
+ _r372.jar org.eclipse.core.externaltools_1.0.100.v20111007_r372.jar o
+ rg.eclipse.core.filebuffers.source_3.5.200.v20110928-1504.jar org.ecl
+ ipse.core.filebuffers_3.5.200.v20110928-1504.jar org.eclipse.core.fil
+ esystem.source_1.3.100.v20110423-0524.jar org.eclipse.core.filesystem
+ .win32.x86_64_1.1.300.v20110423-0524.jar org.eclipse.core.filesystem_
+ 1.3.100.v20110423-0524.jar org.eclipse.core.jobs.source_3.5.101.v2012
+ 0113-1953.jar org.eclipse.core.jobs_3.5.101.v20120113-1953.jar org.ec
+ lipse.core.net.source_1.2.100.I20110511-0800.jar org.eclipse.core.net
+ .win32.x86_64_1.0.100.I20110331-0827.jar org.eclipse.core.net_1.2.100
+ .I20110511-0800.jar org.eclipse.core.resources.source_3.7.101.v201201
+ 25-1505.jar org.eclipse.core.resources_3.7.101.v20120125-1505.jar org
+ .eclipse.core.runtime.compatibility.auth.source_3.2.200.v20110110.jar
+  org.eclipse.core.runtime.compatibility.auth_3.2.200.v20110110.jar or
+ g.eclipse.core.runtime.compatibility.registry.source_3.5.0.v20110505.
+ jar org.eclipse.core.runtime.compatibility.source_3.2.100.v20100505.j
+ ar org.eclipse.core.runtime.compatibility_3.2.100.v20100505.jar org.e
+ clipse.core.runtime.source_3.7.0.v20110110.jar org.eclipse.core.runti
+ me_3.7.0.v20110110.jar org.eclipse.core.variables.source_3.2.500.v201
+ 10928-1503.jar org.eclipse.core.variables_3.2.500.v20110928-1503.jar 
+ org.eclipse.cvs.source_1.1.100.v201202080800.jar org.eclipse.cvs_1.1.
+ 100.v201202080800.jar org.eclipse.debug.core.source_3.7.1.v20111129-2
+ 031.jar org.eclipse.debug.core_3.7.1.v20111129-2031.jar org.eclipse.d
+ ebug.ui.source_3.7.102.v20111129-1423_r372.jar org.eclipse.debug.ui_3
+ .7.102.v20111129-1423_r372.jar org.eclipse.ecf.filetransfer.source_5.
+ 0.0.v20110531-2218.jar org.eclipse.ecf.filetransfer_5.0.0.v20110531-2
+ 218.jar org.eclipse.ecf.identity.source_3.1.100.v20110531-2218.jar or
+ g.eclipse.ecf.identity_3.1.100.v20110531-2218.jar org.eclipse.ecf.pro
+ vider.filetransfer.httpclient.source_4.0.0.v20110531-2218.jar org.ecl
+ ipse.ecf.provider.filetransfer.httpclient.ssl.source_1.0.0.v20110531-
+ 2218.jar org.eclipse.ecf.provider.filetransfer.httpclient.ssl_1.0.0.v
+ 20110531-2218.jar org.eclipse.ecf.provider.filetransfer.httpclient_4.
+ 0.0.v20110531-2218.jar org.eclipse.ecf.provider.filetransfer.source_3
+ .2.0.v20110531-2218.jar org.eclipse.ecf.provider.filetransfer.ssl.sou
+ rce_1.0.0.v20110531-2218.jar org.eclipse.ecf.provider.filetransfer.ss
+ l_1.0.0.v20110531-2218.jar org.eclipse.ecf.provider.filetransfer_3.2.
+ 0.v20110531-2218.jar org.eclipse.ecf.source_3.1.300.v20110531-2218.ja
+ r org.eclipse.ecf.ssl.source_1.0.100.v20110531-2218.jar org.eclipse.e
+ cf.ssl_1.0.100.v20110531-2218.jar org.eclipse.ecf_3.1.300.v20110531-2
+ 218.jar org.eclipse.equinox.app.source_1.3.100.v20110321.jar org.ecli
+ pse.equinox.app_1.3.100.v20110321.jar org.eclipse.equinox.common.sour
+ ce_3.6.0.v20110523.jar org.eclipse.equinox.common_3.6.0.v20110523.jar
+  org.eclipse.equinox.concurrent_1.0.200.v20110502.jar org.eclipse.equ
+ inox.ds.source_1.3.1.R37x_v20110701.jar org.eclipse.equinox.ds_1.3.1.
+ R37x_v20110701.jar org.eclipse.equinox.event.source_1.2.100.v20110502
+ .jar org.eclipse.equinox.event_1.2.100.v20110502.jar org.eclipse.equi
+ nox.frameworkadmin.equinox.source_1.0.300.v20110815-1438.jar org.ecli
+ pse.equinox.frameworkadmin.equinox_1.0.300.v20110815-1438.jar org.ecl
+ ipse.equinox.frameworkadmin.source_2.0.0.v20110815-1438.jar org.eclip
+ se.equinox.frameworkadmin_2.0.0.v20110815-1438.jar org.eclipse.equino
+ x.http.jetty.source_2.0.100.v20110502.jar org.eclipse.equinox.http.je
+ tty_2.0.100.v20110502.jar org.eclipse.equinox.http.registry.source_1.
+ 1.100.v20110502.jar org.eclipse.equinox.http.registry_1.1.100.v201105
+ 02.jar org.eclipse.equinox.http.servlet.source_1.1.200.v20110502.jar 
+ org.eclipse.equinox.http.servlet_1.1.200.v20110502.jar org.eclipse.eq
+ uinox.jsp.jasper.registry.source_1.0.200.v20100503.jar org.eclipse.eq
+ uinox.jsp.jasper.registry_1.0.200.v20100503.jar org.eclipse.equinox.j
+ sp.jasper.source_1.0.300.v20110502.jar org.eclipse.equinox.jsp.jasper
+ _1.0.300.v20110502.jar org.eclipse.equinox.launcher.source_1.2.0.v201
+ 10502.jar org.eclipse.equinox.launcher_1.2.0.v20110502.jar org.eclips
+ e.equinox.p2.artifact.repository.source_1.1.101.v20110815-1419.jar or
+ g.eclipse.equinox.p2.artifact.repository_1.1.101.v20110815-1419.jar o
+ rg.eclipse.equinox.p2.console.source_1.0.300.v20110815-1419.jar org.e
+ clipse.equinox.p2.console_1.0.300.v20110815-1419.jar org.eclipse.equi
+ nox.p2.core.source_2.1.1.v20120113-1346.jar org.eclipse.equinox.p2.co
+ re_2.1.1.v20120113-1346.jar org.eclipse.equinox.p2.director.app.sourc
+ e_1.0.300.v20111126-0153.jar org.eclipse.equinox.p2.director.app_1.0.
+ 300.v20111126-0153.jar org.eclipse.equinox.p2.director.source_2.1.1.v
+ 20111126-0211.jar org.eclipse.equinox.p2.directorywatcher.source_1.0.
+ 300.v20110815-1419.jar org.eclipse.equinox.p2.directorywatcher_1.0.30
+ 0.v20110815-1419.jar org.eclipse.equinox.p2.director_2.1.1.v20111126-
+ 0211.jar org.eclipse.equinox.p2.engine.source_2.1.1.R37x_v20111003.ja
+ r org.eclipse.equinox.p2.engine_2.1.1.R37x_v20111003.jar org.eclipse.
+ equinox.p2.extensionlocation.source_1.2.100.v20110815-1419.jar org.ec
+ lipse.equinox.p2.extensionlocation_1.2.100.v20110815-1419.jar org.ecl
+ ipse.equinox.p2.garbagecollector.source_1.0.200.v20110815-1419.jar or
+ g.eclipse.equinox.p2.garbagecollector_1.0.200.v20110815-1419.jar org.
+ eclipse.equinox.p2.jarprocessor.source_1.0.200.v20110815-1438.jar org
+ .eclipse.equinox.p2.jarprocessor_1.0.200.v20110815-1438.jar org.eclip
+ se.equinox.p2.metadata.repository.source_1.2.0.v20110815-1419.jar org
+ .eclipse.equinox.p2.metadata.repository_1.2.0.v20110815-1419.jar org.
+ eclipse.equinox.p2.metadata.source_2.1.0.v20110815-1419.jar org.eclip
+ se.equinox.p2.metadata_2.1.0.v20110815-1419.jar org.eclipse.equinox.p
+ 2.operations.source_2.1.1.R37x_v20111111.jar org.eclipse.equinox.p2.o
+ perations_2.1.1.R37x_v20111111.jar org.eclipse.equinox.p2.publisher.e
+ clipse.source_1.0.0.v20110815-1438.jar org.eclipse.equinox.p2.publish
+ er.source_1.2.0.v20110815-1419.jar org.eclipse.equinox.p2.publisher_1
+ .2.0.v20110815-1419.jar org.eclipse.equinox.p2.ql.source_2.0.100.v201
+ 10815-1419.jar org.eclipse.equinox.p2.ql_2.0.100.v20110815-1419.jar o
+ rg.eclipse.equinox.p2.reconciler.dropins.source_1.1.100.v20110815-141
+ 9.jar org.eclipse.equinox.p2.reconciler.dropins_1.1.100.v20110815-141
+ 9.jar org.eclipse.equinox.p2.repository.source_2.1.1.v20120113-1346.j
+ ar org.eclipse.equinox.p2.repository.tools.source_2.0.100.v20110815-1
+ 438.jar org.eclipse.equinox.p2.repository.tools_2.0.100.v20110815-143
+ 8.jar org.eclipse.equinox.p2.repository_2.1.1.v20120113-1346.jar org.
+ eclipse.equinox.p2.touchpoint.eclipse.source_2.1.1.v20110815-1419.jar
+  org.eclipse.equinox.p2.touchpoint.eclipse_2.1.1.v20110815-1419.jar o
+ rg.eclipse.equinox.p2.touchpoint.natives.source_1.0.300.v20110815-141
+ 9.jar org.eclipse.equinox.p2.touchpoint.natives_1.0.300.v20110815-141
+ 9.jar org.eclipse.equinox.p2.transport.ecf.source_1.0.0.v20111128-062
+ 4.jar org.eclipse.equinox.p2.transport.ecf_1.0.0.v20111128-0624.jar o
+ rg.eclipse.equinox.p2.ui.importexport.source_1.0.1.R37x_v20111103.jar
+  org.eclipse.equinox.p2.ui.importexport_1.0.1.R37x_v20111103.jar org.
+ eclipse.equinox.p2.ui.sdk.scheduler.source_1.0.100.v20110815-1419.jar
+  org.eclipse.equinox.p2.ui.sdk.scheduler_1.0.100.v20110815-1419.jar o
+ rg.eclipse.equinox.p2.ui.sdk.source_1.0.200.v20110815-1419.jar org.ec
+ lipse.equinox.p2.ui.sdk_1.0.200.v20110815-1419.jar org.eclipse.equino
+ x.p2.ui.source_2.1.1.v20120113-1346.jar org.eclipse.equinox.p2.ui_2.1
+ .1.v20120113-1346.jar org.eclipse.equinox.p2.updatechecker.source_1.1
+ .200.v20110815-1419.jar org.eclipse.equinox.p2.updatechecker_1.1.200.
+ v20110815-1419.jar org.eclipse.equinox.p2.updatesite.source_1.0.300.v
+ 20110815-1419.jar org.eclipse.equinox.p2.updatesite_1.0.300.v20110815
+ -1419.jar org.eclipse.equinox.preferences.source_3.4.2.v20120111-2020
+ .jar org.eclipse.equinox.preferences_3.4.2.v20120111-2020.jar org.ecl
+ ipse.equinox.registry.source_3.5.101.R37x_v20110810-1611.jar org.ecli
+ pse.equinox.registry_3.5.101.R37x_v20110810-1611.jar org.eclipse.equi
+ nox.security.source_1.1.1.R37x_v20110822-1018.jar org.eclipse.equinox
+ .security.ui.source_1.1.0.v20101004.jar org.eclipse.equinox.security.
+ ui_1.1.0.v20101004.jar org.eclipse.equinox.security.win32.x86_64.sour
+ ce_1.0.0.v20110502.jar org.eclipse.equinox.security.win32.x86_64_1.0.
+ 0.v20110502.jar org.eclipse.equinox.security_1.1.1.R37x_v20110822-101
+ 8.jar org.eclipse.equinox.simpleconfigurator.manipulator.source_2.0.0
+ .v20110815-1438.jar org.eclipse.equinox.simpleconfigurator.manipulato
+ r_2.0.0.v20110815-1438.jar org.eclipse.equinox.simpleconfigurator.sou
+ rce_1.0.200.v20110815-1438.jar org.eclipse.equinox.simpleconfigurator
+ _1.0.200.v20110815-1438.jar org.eclipse.equinox.util.source_1.0.300.v
+ 20110502.jar org.eclipse.equinox.util_1.0.300.v20110502.jar org.eclip
+ se.help.appserver.source_3.1.400.v20110425.jar org.eclipse.help.appse
+ rver_3.1.400.v20110425.jar org.eclipse.help.base.source_3.6.2.v201202
+ 080800.jar org.eclipse.help.base_3.6.2.v201202080800.jar org.eclipse.
+ help.source_3.5.100.v20110426.jar org.eclipse.help.ui.source_3.5.101.
+ r37_20110819.jar org.eclipse.help.ui_3.5.101.r37_20110819.jar org.ecl
+ ipse.help.webapp.source_3.6.1.r37_20110929.jar org.eclipse.help.webap
+ p_3.6.1.r37_20110929.jar org.eclipse.help_3.5.100.v20110426.jar org.e
+ clipse.jdt.apt.core.source_3.3.500.v20110420-1015.jar org.eclipse.jdt
+ .apt.core_3.3.500.v20110420-1015.jar org.eclipse.jdt.apt.pluggable.co
+ re.source_1.0.400.v20110305-1450.jar org.eclipse.jdt.apt.pluggable.co
+ re_1.0.400.v20110305-1450.jar org.eclipse.jdt.apt.ui.source_3.3.300.v
+ 20110305-1450.jar org.eclipse.jdt.apt.ui_3.3.300.v20110305-1450.jar o
+ rg.eclipse.jdt.compiler.apt.source_1.0.400.v0110816-0800.jar org.ecli
+ pse.jdt.compiler.apt_1.0.400.v0110816-0800.jar org.eclipse.jdt.compil
+ er.tool.source_1.0.100.v_B79_R37x.jar org.eclipse.jdt.compiler.tool_1
+ .0.100.v_B79_R37x.jar org.eclipse.jdt.core.manipulation.source_1.4.0.
+ v20110928-1453.jar org.eclipse.jdt.core.manipulation_1.4.0.v20110928-
+ 1453.jar org.eclipse.jdt.core.source_3.7.3.v20120119-1537.jar org.ecl
+ ipse.jdt.core_3.7.3.v20120119-1537.jar org.eclipse.jdt.debug.source_3
+ .7.1.v20111006_r372.jar org.eclipse.jdt.debug.ui.source_3.6.1.v201110
+ 06_r372.jar org.eclipse.jdt.debug.ui_3.6.1.v20111006_r372.jar org.ecl
+ ipse.jdt.doc.isv_3.7.2.v20120120-1417.jar org.eclipse.jdt.doc.user_3.
+ 7.1.r372_v20111103.jar org.eclipse.jdt.junit.core.source_3.7.0.v20110
+ 928-1453.jar org.eclipse.jdt.junit.core_3.7.0.v20110928-1453.jar org.
+ eclipse.jdt.junit.runtime.source_3.4.300.v20110928-1453.jar org.eclip
+ se.jdt.junit.runtime_3.4.300.v20110928-1453.jar org.eclipse.jdt.junit
+ .source_3.7.0.v20110928-1453.jar org.eclipse.jdt.junit4.runtime.sourc
+ e_1.1.200.v20110928-1453.jar org.eclipse.jdt.junit4.runtime_1.1.200.v
+ 20110928-1453.jar org.eclipse.jdt.junit_3.7.0.v20110928-1453.jar org.
+ eclipse.jdt.launching.source_3.6.1.v20111006_r372.jar org.eclipse.jdt
+ .launching_3.6.1.v20111006_r372.jar org.eclipse.jdt.source_3.7.2.v201
+ 202080800.jar org.eclipse.jdt.ui.source_3.7.2.v20120109-1427.jar org.
+ eclipse.jdt.ui_3.7.2.v20120109-1427.jar org.eclipse.jdt_3.7.2.v201202
+ 080800.jar org.eclipse.jface.databinding.source_1.5.0.I20100907-0800.
+ jar org.eclipse.jface.databinding_1.5.0.I20100907-0800.jar org.eclips
+ e.jface.source_3.7.0.v20110928-1505.jar org.eclipse.jface.text.source
+ _3.7.2.v20111213-1208.jar org.eclipse.jface.text_3.7.2.v20111213-1208
+ .jar org.eclipse.jface_3.7.0.v20110928-1505.jar org.eclipse.jsch.core
+ .source_1.1.300.I20110514-0800.jar org.eclipse.jsch.core_1.1.300.I201
+ 10514-0800.jar org.eclipse.jsch.ui.source_1.1.300.R37x_v20111201-1600
+ .jar org.eclipse.jsch.ui_1.1.300.R37x_v20111201-1600.jar org.eclipse.
+ ltk.core.refactoring.source_3.5.201.r372_v20111101-0700.jar org.eclip
+ se.ltk.core.refactoring_3.5.201.r372_v20111101-0700.jar org.eclipse.l
+ tk.ui.refactoring.source_3.6.0.v20110928-1453.jar org.eclipse.ltk.ui.
+ refactoring_3.6.0.v20110928-1453.jar org.eclipse.osgi.services.source
+ _3.3.0.v20110513.jar org.eclipse.osgi.services_3.3.0.v20110513.jar or
+ g.eclipse.osgi.source_3.7.2.v20120110-1415.jar org.eclipse.osgi.util.
+ source_3.2.200.v20110110.jar org.eclipse.osgi.util_3.2.200.v20110110.
+ jar org.eclipse.osgi_3.7.2.v20120110-1415.jar org.eclipse.pde.api.too
+ ls.source_1.0.301.v20111129-2053.jar org.eclipse.pde.api.tools.ui.sou
+ rce_1.0.301.v20110803_r371.jar org.eclipse.pde.api.tools.ui_1.0.301.v
+ 20110803_r371.jar org.eclipse.pde.api.tools_1.0.301.v20111129-2053.ja
+ r org.eclipse.pde.build.source_3.7.0.v20111116-2009.jar org.eclipse.p
+ de.core.source_3.7.1.v20120103_r372.jar org.eclipse.pde.core_3.7.1.v2
+ 0120103_r372.jar org.eclipse.pde.doc.user_3.7.2.v20120120-1417.jar or
+ g.eclipse.pde.ds.core.source_1.0.100.v20100601.jar org.eclipse.pde.ds
+ .core_1.0.100.v20100601.jar org.eclipse.pde.ds.ui.source_1.0.100.v201
+ 11213-1754.jar org.eclipse.pde.ds.ui_1.0.100.v20111213-1754.jar org.e
+ clipse.pde.junit.runtime.source_3.4.100.v20110928-1516.jar org.eclips
+ e.pde.junit.runtime_3.4.100.v20110928-1516.jar org.eclipse.pde.launch
+ ing.source_3.6.0.v20110506.jar org.eclipse.pde.launching_3.6.0.v20110
+ 506.jar org.eclipse.pde.runtime.source_3.4.201.v20110928-1516.jar org
+ .eclipse.pde.runtime_3.4.201.v20110928-1516.jar org.eclipse.pde.sourc
+ e_3.7.2.v201202080800.jar org.eclipse.pde.ua.core.source_1.0.100.v201
+ 10516.jar org.eclipse.pde.ua.core_1.0.100.v20110516.jar org.eclipse.p
+ de.ua.ui.source_1.0.100.v20110516.jar org.eclipse.pde.ua.ui_1.0.100.v
+ 20110516.jar org.eclipse.pde.ui.source_3.6.100.v20120103_r372.jar org
+ .eclipse.pde.ui.templates.source_3.4.400.v20110928-1516.jar org.eclip
+ se.pde.ui.templates_3.4.400.v20110928-1516.jar org.eclipse.pde.ui_3.6
+ .100.v20120103_r372.jar org.eclipse.pde_3.7.2.v201202080800.jar org.e
+ clipse.platform.doc.isv_3.7.2.v20120120-1417.jar org.eclipse.platform
+ .doc.user_3.7.1.r372_v20111202.jar org.eclipse.platform.source_3.7.2.
+ v201202080800.jar org.eclipse.rcp.source_3.7.2.v201202080800.jar org.
+ eclipse.rcp_3.7.2.v201202080800.jar org.eclipse.search.source_3.7.0.v
+ 20110928-1504.jar org.eclipse.search_3.7.0.v20110928-1504.jar org.ecl
+ ipse.swt.win32.win32.x86_64.source_3.7.2.v3740f.jar org.eclipse.swt.w
+ in32.win32.x86_64_3.7.2.v3740f.jar org.eclipse.swt_3.7.2.v3740f.jar o
+ rg.eclipse.team.core.source_3.6.0.I20110525-0800.jar org.eclipse.team
+ .core_3.6.0.I20110525-0800.jar org.eclipse.team.cvs.core.source_3.3.4
+ 00.I20110510-0800.jar org.eclipse.team.cvs.core_3.3.400.I20110510-080
+ 0.jar org.eclipse.team.cvs.ssh2.source_3.2.300.I20110511-0800.jar org
+ .eclipse.team.cvs.ssh2_3.2.300.I20110511-0800.jar org.eclipse.team.cv
+ s.ui.source_3.3.401.v20120126-1227.jar org.eclipse.team.cvs.ui_3.3.40
+ 1.v20120126-1227.jar org.eclipse.team.ui.source_3.6.101.R37x_v2011110
+ 9-0800.jar org.eclipse.team.ui_3.6.101.R37x_v20111109-0800.jar org.ec
+ lipse.text.source_3.5.101.v20110928-1504.jar org.eclipse.text_3.5.101
+ .v20110928-1504.jar org.eclipse.ui.browser.source_3.3.101.v20111019-1
+ 723.jar org.eclipse.ui.browser_3.3.101.v20111019-1723.jar org.eclipse
+ .ui.cheatsheets.source_3.4.100.v20110425.jar org.eclipse.ui.cheatshee
+ ts_3.4.100.v20110425.jar org.eclipse.ui.console.source_3.5.100.v20111
+ 007_r372.jar org.eclipse.ui.console_3.5.100.v20111007_r372.jar org.ec
+ lipse.ui.editors.source_3.7.0.v20110928-1504.jar org.eclipse.ui.edito
+ rs_3.7.0.v20110928-1504.jar org.eclipse.ui.externaltools.source_3.2.0
+ .v20111007_r372.jar org.eclipse.ui.externaltools_3.2.0.v20111007_r372
+ .jar org.eclipse.ui.forms.source_3.5.101.v20111011-1919.jar org.eclip
+ se.ui.forms_3.5.101.v20111011-1919.jar org.eclipse.ui.ide.application
+ .source_1.0.300.I20110306-2000.jar org.eclipse.ui.ide.application_1.0
+ .300.I20110306-2000.jar org.eclipse.ui.ide.source_3.7.0.v20110928-150
+ 5.jar org.eclipse.ui.ide_3.7.0.v20110928-1505.jar org.eclipse.ui.intr
+ o.source_3.4.100.v20110425.jar org.eclipse.ui.intro.universal.source_
+ 3.2.500.v20110510.jar org.eclipse.ui.intro_3.4.100.v20110425.jar org.
+ eclipse.ui.navigator.resources.source_3.4.300.v20110928-1505.jar org.
+ eclipse.ui.navigator.resources_3.4.300.v20110928-1505.jar org.eclipse
+ .ui.navigator.source_3.5.101.v20120106-1355.jar org.eclipse.ui.naviga
+ tor_3.5.101.v20120106-1355.jar org.eclipse.ui.net.source_1.2.100.v201
+ 11208-1155.jar org.eclipse.ui.net_1.2.100.v20111208-1155.jar org.ecli
+ pse.ui.presentations.r21.source_3.2.200.I20100517-1500.jar org.eclips
+ e.ui.presentations.r21_3.2.200.I20100517-1500.jar org.eclipse.ui.sour
+ ce_3.7.0.v20110928-1505.jar org.eclipse.ui.views.log.source_1.0.200.v
+ 20110404.jar org.eclipse.ui.views.log_1.0.200.v20110404.jar org.eclip
+ se.ui.views.properties.tabbed.source_3.5.200.v20110928-1505.jar org.e
+ clipse.ui.views.properties.tabbed_3.5.200.v20110928-1505.jar org.ecli
+ pse.ui.views.source_3.6.0.v20110928-1505.jar org.eclipse.ui.views_3.6
+ .0.v20110928-1505.jar org.eclipse.ui.win32.source_3.2.200.v20110928-1
+ 505.jar org.eclipse.ui.win32_3.2.200.v20110928-1505.jar org.eclipse.u
+ i.workbench.compatibility.source_3.2.100.I20110413-1600.jar org.eclip
+ se.ui.workbench.source_3.7.1.v20120104-1859.jar org.eclipse.ui.workbe
+ nch.texteditor.source_3.7.0.v20110928-1504.jar org.eclipse.ui.workben
+ ch.texteditor_3.7.0.v20110928-1504.jar org.eclipse.ui.workbench_3.7.1
+ .v20120104-1859.jar org.eclipse.ui_3.7.0.v20110928-1505.jar org.eclip
+ se.update.configurator.source_3.3.100.v20100512.jar org.eclipse.updat
+ e.configurator_3.3.100.v20100512.jar org.eclipse.update.core.source_3
+ .2.500.v20110330.jar org.eclipse.update.core.win32.source_3.2.200.v20
+ 100512.jar org.eclipse.update.core.win32_3.2.200.v20100512.jar org.ec
+ lipse.update.core_3.2.500.v20110330.jar org.eclipse.update.scheduler.
+ source_3.2.300.v20100512.jar org.eclipse.update.scheduler_3.2.300.v20
+ 100512.jar org.eclipse.update.ui.source_3.2.300.v20100512.jar org.ecl
+ ipse.update.ui_3.2.300.v20100512.jar org.hamcrest.core.source_1.1.0.v
+ 20090501071000.jar org.hamcrest.core_1.1.0.v20090501071000.jar org.ju
+ nit.source_3.8.2.v3_8_2_v20100427-1100.jar org.junit.source_4.8.2.v4_
+ 8_2_v20110321-1705.jar org.mortbay.jetty.server.source_6.1.23.v201012
+ 071420.jar org.mortbay.jetty.server_6.1.23.v201012071420.jar org.mort
+ bay.jetty.util.source_6.1.23.v201012071420.jar org.mortbay.jetty.util
+ _6.1.23.v201012071420.jar org.objectweb.asm.source_3.3.1.v20110521165
+ 5.jar org.objectweb.asm_3.3.1.v201105211655.jar org.sat4j.core_2.3.0.
+ v20110329.jar org.sat4j.pb_2.3.0.v20110329.jar twitter4j-async-3.0.5.
+ jar twitter4j-core-3.0.5.jar twitter4j-media-support-3.0.5.jar twitte
+ r4j-stream-3.0.5.jar
+Main-Class: com.tida_okinawa.corona.correction.script.Erratum

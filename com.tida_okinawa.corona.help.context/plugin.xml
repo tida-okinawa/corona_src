@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.help.contexts">
+      <contexts
+            file="context.xml"
+            plugin="com.tida_okinawa.corona.help.context">
+      </contexts>
+   </extension>
+   <extension
+         point="org.eclipse.help.toc">
+      <toc
+            file="toc.xml"
+            primary="true">
+      </toc>
+   </extension>
+   <extension
+         point="org.eclipse.ui.actionSets">
+      <actionSet
+            id="com.tida_okinawa.corona.help.context.helpActionSet"
+            label="helpActionSet"
+            visible="true">
+         <action
+               class="com.tida_okinawa.corona.help.context.action.ManualPdfOpenAction"
+               icon="icons/help.png"
+               id="com.tida_okinawa.corona.help.context.manualPdf"
+               label="Coronaマニュアルを開く(&amp;M)"
+               menubarPath="help/">
+         </action>
+         <action
+               class="com.tida_okinawa.corona.help.context.action.PatternPdfOpenAction"
+               icon="icons/help.png"
+               id="com.tida_okinawa.corona.help.context.patternPdf"
+               label="Coronaマニュアル(パターン辞書)を開く(&amp;P)"
+               menubarPath="help/">
+         </action>
+         <action
+               class="com.tida_okinawa.corona.help.context.action.TutorialPdfOpenAction"
+               icon="icons/help.png"
+               id="com.tida_okinawa.corona.help.context.tutorialPdf"
+               label="Coronaチュートリアルを開く(&amp;T)"
+               menubarPath="help/">
+         </action>
+      </actionSet>
+   </extension>
+
+</plugin>

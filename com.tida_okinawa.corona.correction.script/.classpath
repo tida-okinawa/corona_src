@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/com.tida_okinawa.corona.ui"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/com.tida_okinawa.corona.io"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.equinox.common_3.6.0.v20110523.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.swt.win32.win32.x86_64_3.7.2.v3740f.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.ui.views_3.6.0.v20110928-1505.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.jface_3.7.0.v20110928-1505.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.osgi_3.7.2.v20120110-1415.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/com.tida_okinawa.corona"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/com.tida_okinawa.corona.webEntry"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/com.tida_okinawa.corona.correction"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/com.tida_okinawa.corona.ui.editors.resultpattern.export"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

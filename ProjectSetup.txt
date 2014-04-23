@@ -1,0 +1,118 @@
+ベースに用いるEclipseはEclipse 3.7 Indigo ServiceReleace2を利用しています。
+
+Java version: Java SE7 Update 51 or later
+Platform: Eclipse 3.7 Indigo ServiceReleace2
+OS: Windows 7/8.1 32/64bit
+
+Recommended specs:
+CPU: 4 or more core
+Memory: 2048MB or more
+
+Coronaが必要とするライブラリを手動で導入する必要があります。
+Ant、Mavenは現在未設定です。
+
+1. Please install the JUMAN7.
+
+JUMAN 7を導入
+com.tida_okinawa.corona.correction.externalプロジェクトの
+juman7フォルダーへ動作可能なWindows版Jumanを展開
+
+The destination:
+com.tida_okinawa.corona.correction.external\juman7
+	AUTHORS
+	COPYING
+	juman.bat
+	juman.exe
+	jumanrc.win
+	com.tida_okinawa.corona.correction.external\juman7\autodic\*
+	com.tida_okinawa.corona.correction.external\juman7\dic\*
+	com.tida_okinawa.corona.correction.external\juman7\doc\*
+	com.tida_okinawa.corona.correction.external\juman7\wikipediadic\*
+
+
+2. Please install the KNP4.
+
+KNP 4を導入
+com.tida_okinawa.corona.correction.externalプロジェクトの
+knp4フォルダーへ動作可能なWindows版KNP 4を展開
+
+The destination:
+com.tida_okinawa.corona.correction.external\knp4
+	knp.bat
+	knp.exe
+	knprc.win
+	com.tida_okinawa.corona.correction.external\knp4\dict\*
+	com.tida_okinawa.corona.correction.external\knp4\doc\*
+	com.tida_okinawa.corona.correction.external\knp4\rule\*
+
+
+3. Please install the Hibernate.
+
+Hibernateを導入
+com.tida_okinawa.corona.ioプロジェクトの
+libフォルダーにHibernate 4.2.xを導入する。
+
+The destination:
+corona_src\com.tida_okinawa.corona.io\lib
+	antlr-2.7.7.jar
+	dom4j-1.6.1.jar
+	hibernate-commons-annotations-4.0.2.Final.jar
+	hibernate-core-4.2.11.Final.jar
+	hibernate-jpa-2.0-api-1.0.1.Final.jar
+	javassist-3.18.1-GA.jar
+	jboss-logging-3.1.0.GA.jar
+	jboss-transaction-api_1.1_spec-1.0.1.Final.jar
+
+
+4. Please install the Twitter 4j.
+
+Twitter 4jを導入
+com.tida_okinawa.corona.webEntryプロジェクトの
+libフォルダーにTwitter4jを導入する。
+
+The destination:
+com.tida_okinawa.corona.webEntry\lib
+	LICENSE.txt
+	twitter4j-async-3.0.6.jar
+	twitter4j-core-3.0.6.jar
+	twitter4j-media-support-3.0.6.jar
+	twitter4j-stream-3.0.6.jar
+
+
+5. Please install the Apache POI.
+
+Apache POIを導入
+
+The destination:
+com.tida_okinawa.corona/lib
+	dom4j-1.6.1.jar
+	stax-api-1.0.1.jar
+	xmlbeans-2.3.0.jar
+	poi-3.9-20121203.jar
+	poi-ooxml-3.9-20121203.jar
+	poi-ooxml-schemas-3.9-20121203.jar
+
+
+6.Please install the Ganymed SSH-2.
+
+Ganymed SSH-2を導入
+
+The destination:
+com.tida_okinawa.corona/lib
+	ganymed-ssh2-build210.jar
+	geronimo-stax-api_1.0_spec-1.0.jar
+
+
+7.Please install the Apache PDFBox.
+
+The destination:
+Apache PDFBoxを導入
+com.tida_okinawa.corona/lib
+	pdfbox-app-1.7.1.jar
+
+8.Please set the token of twitter.
+インタフェースTwitterTokenを実装するTwitterTokenSettingを作成し、
+ユーザー独自のトークンを設定してください。
+
+You make
+com.tida_okinawa.corona.webentry.twitter.TwitterTokenSetting.java

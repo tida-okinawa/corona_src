@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- Database connection settings -->
+<!-- H2DataBase -->
+        <property name="hibernate.connection.driver_class">org.h2.Driver</property>
+        <property name="hibernate.connection.url">jdbc:h2:tidadb</property>
+        <property name="hibernate.connection.username">sa</property>
+		<property name="hibernate.connection.password"></property>
+		
+<!-- MySQL
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/tidadb</property>
+        <property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">root</property>
+-->		
+        <!-- JDBC connection pool (use the built-in connection pool) -->
+        <property name="connection.pool_size">1</property>
+
+        <!-- MySQL
+            SQL dialect
+            There are other mysql dialects avaialable IF you run INTO trouble WITH this one.
+            The FULL list IS:
+                MySQL5Dialect
+                MySQL5InnoDBDialect
+                MySQLDialect
+                MySQLInnoDBDialect
+                MySQLMyISAMDialect
+            See http://docs.jboss.org/hibernate/orm/3.5/api/org/hibernate/dialect/package-summary.html
+        -->
+<!-- H2DataBase --> 
+        <property name="dialect">org.hibernate.dialect.H2Dialect</property>
+<!-- MySQL 
+        <property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+-->
+        <!-- Enable Hibernate's automatic session context management -->
+        <property name="current_session_context_class">thread</property>
+
+        <!-- Disable the second-level cache  -->
+        <property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+
+        <!-- Change these values to true to echo all executed SQL to stdout -->
+        <property name="show_sql">false</property>
+        <property name="format_sql">false</property>
+        <property name="use_sql_comments">false</property>
+
+        <!-- Drop and re-create the database schema on startup -->
+        <property name="hbm2ddl.auto">update</property>
+
+        <!-- This is the entity class that we'll be testing. -->
+        <mapping class="com.tida_okinawa.corona.io.bean.CategoryBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.ClaimsBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.CoronaDbVersionBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.DicCommonBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.DicFlucBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.DicLabelBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.DicPatternBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.DicPriorityBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.DicPriorityPKBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.DicSynonymBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.DicTableBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.FieldsBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.FlucTblBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.LabelTreeBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.LabelTreePKBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.ProductBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.ProjectBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RecentDicPriBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RecentDicPriPKBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RelClmProductBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RelClmProductPKBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RelCommonLabelBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RelFlucBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RelFlucPKBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RelPrjClmBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RelPrjClmPKBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RelPrjDicBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RelPrjDicPKBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RelPrjProductBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RelPrjProductPKBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RelProductDicBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RelProductDicPKBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RelSynonymBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.RelSynonymPKBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.SynonymTblBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.TablesBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.TemplatePatternBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.TypePatternBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.WorkdatasBean" />
+        
+        <!-- 動的テーブル -->
+        <mapping class="com.tida_okinawa.corona.io.bean.TmpDicPatternTableBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.TmpTypePatternTableBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.UsrCmTableBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.UsrCmTablePKBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.UsrRelptnTableBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.UsrWorkTableBean" />
+        <mapping class="com.tida_okinawa.corona.io.bean.UsrWorkTablePKBean" />
+        
+
+
+</session-factory>
+</hibernate-configuration>

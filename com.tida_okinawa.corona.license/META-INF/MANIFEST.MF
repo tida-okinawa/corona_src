@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: License
+Bundle-SymbolicName: com.tida_okinawa.corona.license;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.tida_okinawa.corona.license.LicenseActivator
+Bundle-Vendor: TIDA_OKINAWA
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Export-Package: com.tida_okinawa.corona.license

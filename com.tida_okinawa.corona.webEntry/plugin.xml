@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.menus">
+      <menuContribution
+            allPopups="false"
+            locationURI="popup:com.tida_okinawa.corona.ui.DataBaseView?after=additions">
+         <separator
+               name="com.tida_okinawa.corona.webEntry.separator.dbview_separator_web"
+               visible="true">
+         </separator>
+         <command
+               commandId="com.tida_okinawa.corona.webEntry.command.dbview_webentry"
+               id="com.tida_okinawa.corona.ui.popupmenus.dbview_webentry"
+               label="Webから問い合わせデータを登録(&amp;W)"
+               style="push">
+            <visibleWhen
+                  checkEnabled="false">
+            </visibleWhen>
+         </command>
+      </menuContribution>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <command
+            id="com.tida_okinawa.corona.webEntry.command.dbview_webentry"
+            name="DBView_WebEntry">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.handlers">
+      <handler
+            class="com.tida_okinawa.corona.webentry.handler.DbViewWebEntryHandler"
+            commandId="com.tida_okinawa.corona.webEntry.command.dbview_webentry">
+      </handler>
+   </extension>
+
+</plugin>
