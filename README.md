@@ -7,7 +7,7 @@ CoronaはJavaとEclipseをベースに作られた日本語テキスト解析ツ
 表示、CSVへの出力が可能です。
 
 Import: CSV(Shift-JIS, UTF-8)、XLSX、PDF、Twitter  
-Export: CSV(UTF-8)、XLSX
+Export: CSV(Shift-JIS)、XLSX
 
 How to set up
 ------------
