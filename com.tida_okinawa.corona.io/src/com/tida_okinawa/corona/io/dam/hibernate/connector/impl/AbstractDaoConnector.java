@@ -327,6 +327,10 @@ abstract public class AbstractDaoConnector<K, T> implements DaoConnecter<K, T> {
             session = getConnection();
             strSqlExec = setParamForCommit(strSQL, datas);
             /* トランザクション開始 */
+            if (session.getTransaction().isActive()) {
+                System.out.println("Transactions are likely to be nested");
+                session.getTransaction().commit();
+            }
             session.beginTransaction();
             session.createSQLQuery(strSqlExec).executeUpdate();
             session.flush();
